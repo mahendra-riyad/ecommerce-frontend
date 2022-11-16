@@ -15,4 +15,6 @@ jobs:
     steps:
     - name: ecommerce-frontend
       id: ecommerce-frontend 
-      run: yarn run build --if-present
+      run: | 
+        yarn install
+        yarn run build --if-present

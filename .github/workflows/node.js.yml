@@ -18,6 +18,9 @@ jobs:
       
     - name: ecommerce-frontend
       id: ecommerce-frontend 
+      env: 
+        CI: false
+        
       run: | 
         ls -all
         pwd

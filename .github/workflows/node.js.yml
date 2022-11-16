@@ -16,5 +16,7 @@ jobs:
     - name: ecommerce-frontend
       id: ecommerce-frontend 
       run: | 
+        ls -all
+        pwd
         yarn install
         yarn run build --if-present
